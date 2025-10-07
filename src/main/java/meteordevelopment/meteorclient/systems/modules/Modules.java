@@ -386,34 +386,7 @@ public class Modules extends System<Modules> {
     }
 
     private void initCombat() {
-        add(new AnchorAura());
-        add(new AntiAnvil());
-        add(new AntiBed());
-        add(new ArrowDodge());
-        add(new AutoAnvil());
-        add(new AutoArmor());
-        add(new AutoCity());
-        add(new AutoEXP());
-        add(new AutoLog());
-        add(new AutoTotem());
-        add(new AutoTrap());
-        add(new AutoWeapon());
-        add(new AutoWeb());
-        add(new BedAura());
-        add(new BowAimbot());
-        add(new BowSpam());
-        add(new Burrow());
-        add(new Criticals());
-        add(new CrystalAura());
-        add(new Hitboxes());
-        add(new HoleFiller());
-        add(new KillAura());
-        add(new Offhand());
         add(new Quiver());
-        add(new SelfAnvil());
-        add(new SelfTrap());
-        add(new SelfWeb());
-        add(new Surround());
     }
 
     private void initPlayer() {
@@ -505,6 +478,7 @@ public class Modules extends System<Modules> {
         add(new FreeLook());
         add(new Fullbright());
         add(new HandView());
+        add(new Hitboxes());
         add(new HoleESP());
         add(new ItemPhysics());
         add(new ItemHighlight());
@@ -566,13 +540,11 @@ public class Modules extends System<Modules> {
         add(new BookBot());
         add(new DiscordPresence());
         add(new InventoryTweaks());
-        add(new MessageAura());
         add(new Notebot());
         add(new Notifier());
         add(new PacketCanceller());
         add(new ServerSpoof());
         add(new SoundBlocker());
-        add(new Spam());
         add(new Swarm());
     }
 }
